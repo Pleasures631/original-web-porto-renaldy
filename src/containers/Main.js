@@ -1,16 +1,16 @@
 import React from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import HomeComponent from "../pages/home/HomeComponents";
+import { chosenTheme } from "../theme";
 
 function Main() {
-
     return(
         <BrowserRouter>
         <Routes>
-            <Route exact path="/" element={<HomeComponent />}></Route>
+            <Route exact path="/" element={<HomeComponent theme={chosenTheme} />}></Route>
             <Route             
             path="Home"
-            element={<HomeComponent />}></Route>
+            element={<HomeComponent theme={chosenTheme} />}></Route>
             </Routes>
         </BrowserRouter>
     );

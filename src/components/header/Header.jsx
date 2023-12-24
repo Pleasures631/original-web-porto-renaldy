@@ -3,7 +3,8 @@ import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 
-function Header() {
+function Header(props) {    
+    const theme = props.theme;    
     return(
         <div>
             <header className="header">
@@ -11,7 +12,8 @@ function Header() {
             <ul className="menu">
                 <li>
                     <NavLink
-                    to={"/Home"}
+                    to={"/Home"}  
+                    style={{color :theme.text}}                  
                     >
                     Home
                     </NavLink>
