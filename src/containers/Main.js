@@ -5,7 +5,7 @@ import { chosenTheme } from "../theme";
 
 function Main() {
     return(
-        <BrowserRouter basename="/">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
             <Route exact path="/" element={<HomeComponent theme={chosenTheme} />}></Route>
             <Route             
