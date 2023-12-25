@@ -1,0 +1,38 @@
+.education-main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+}
+
+.education-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 70px;
+    line-height: 1.1;
+    font-family: "Google Sans Bold";
+}
+
+.education-history {
+    font-size: 30px;
+    line-height: 0px;
+    font-family: "Google Sans Bold Italic";
+}
+
+.education-text-p {
+    font-size: 40px;
+    line-height: 40px;
+    margin-right: 40px;
+    font-family: "Google Sans Medium";
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+    .education-text {
+        font-size: 50px;
+    }
+
+    .education-text-p {
+        font-size: 20px;
+    }
+}
