@@ -9,8 +9,8 @@ function ExperienceList(props) {
         experience.data.map((experience, i) => (
             <Fade top duration={1000} distance="20px">
                 <div className="education-main">
-                    <h2 style={{color : theme.text}}>{experience.office}</h2>
-                    <h3 style={{color : theme.text}}>{experience.jobTitle}</h3>
+                    <h2 className="experience-sub-text" style={{color : theme.text}}>{experience.office}</h2>
+                    <h3 className="experience-text-p" style={{color : theme.text}}>{experience.jobTitle}</h3>
                     {experience.experience.map((skills, i) => (
                         <div className="experience-text-p" key={i} style={{color : theme.text}}>{skills}</div>
                     ))}

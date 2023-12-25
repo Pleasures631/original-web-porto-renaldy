@@ -9,7 +9,7 @@ function Education(props) {
             <div className="education-main">
                 <div>
                     <h1
-                        style={{ color: theme.text }}
+                        style={{ color: theme.headline }}
                         className="education-text"
                     >
                         Education
@@ -23,41 +23,10 @@ function Education(props) {
                     <p
                         style={{ color: theme.text }}
                         className="education-text-p"
-                    >Experienced Web Programmer with a demonstrated history of working in the insurance industry & IT Service/Solution. Skilled in PHP, JavaScript Strong engineering professional graduated from Universitas Tarumanagara.
+                    >Bachelor's degree.
                     </p>
-                    <h2
-                        style={{ color: theme.text }}
-                        className="education-history"
-                    >
-                        Tarumanagara University
-                    </h2>
-                    <p
-                        style={{ color: theme.text }}
-                        className="education-text-p"
-                    >Experienced Web Programmer with a demonstrated history of working in the insurance industry & IT Service/Solution. Skilled in PHP, JavaScript Strong engineering professional graduated from Universitas Tarumanagara.
-                    </p>
-                    <h2
-                        style={{ color: theme.text }}
-                        className="education-history"
-                    >
-                        Tarumanagara University
-                    </h2>
-                    <p
-                        style={{ color: theme.text }}
-                        className="education-text-p"
-                    >Experienced Web Programmer with a demonstrated history of working in the insurance industry & IT Service/Solution. Skilled in PHP, JavaScript Strong engineering professional graduated from Universitas Tarumanagara.
-                    </p>
-                    <h2
-                        style={{ color: theme.text }}
-                        className="education-history"
-                    >
-                        Tarumanagara University
-                    </h2>
-                    <p
-                        style={{ color: theme.text }}
-                        className="education-text-p"
-                    >Experienced Web Programmer with a demonstrated history of working in the insurance industry & IT Service/Solution. Skilled in PHP, JavaScript Strong engineering professional graduated from Universitas Tarumanagara.
-                    </p>
+                    <p style={{ color: theme.text }} className="education-text-p">2015-2020</p>
+                    <p style={{ color: theme.text }} className="education-text-p">Grade: 3.05</p>
                 </div>
             </div>
         </Fade>

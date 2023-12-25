@@ -13,7 +13,7 @@ function Header(props) {
                         <li>
                             <NavLink
                                 to={"/Home"}
-                                style={{ color: theme.text }}
+                                style={{ color: theme.headline }}
                             >
                                 Home
                             </NavLink>
@@ -21,7 +21,7 @@ function Header(props) {
                         <li>
                             <NavLink
                                 to={"/Home"}
-                                style={{ color: theme.text }}
+                                style={{ color: theme.headline }}
                             >
                                 Education
                             </NavLink>
@@ -29,7 +29,7 @@ function Header(props) {
                         <li>
                             <NavLink
                                 to={"/Home"}
-                                style={{ color: theme.text }}
+                                style={{ color: theme.headline }}
                             >
                                 Projects
                             </NavLink>
@@ -37,7 +37,7 @@ function Header(props) {
                         <li>
                             <NavLink
                                 to={"/Home"}
-                                style={{ color: theme.text }}
+                                style={{ color: theme.headline }}
                             >
                                 Contact Me
                             </NavLink>

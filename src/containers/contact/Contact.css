@@ -1,0 +1,42 @@
+.contact-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.contact-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 70px;
+    line-height: 1.1;
+    font-family: "Google Sans Bold";
+}
+
+.contact-text-p {
+    font-size: 40px;
+    line-height: 40px;    
+    font-family: "Google Sans Medium";
+}
+
+.contact-card {
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    /* border-color: blue; */
+    background: #fabe2c;
+    text-align: center;
+    padding: 1.2rem;
+    line-height: 1.1;    
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+    .contact-text {
+        font-size: 50px;
+    }
+
+    .contact-text-p {
+        font-size: 20px;
+    }
+}

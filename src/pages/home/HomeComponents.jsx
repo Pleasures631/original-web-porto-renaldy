@@ -15,7 +15,7 @@ function HomeComponent(props) {
             <Greeting theme={props.theme}/>
             <Experience theme={props.theme}/>
             <Education theme={props.theme}/>
-            <Project theme={props.theme}/>
+            {/* <Project theme={props.theme}/> */}
             <Contact theme={props.theme}/>
             <Footer theme={props.theme}/>
             {/* <TopButton /> */}

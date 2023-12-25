@@ -8,7 +8,7 @@ function Experience(props) {
     return (
         <Fade top duration={1000} distance="20px">
             <h1
-                style={{color : theme.text}}
+                style={{color : theme.headline}}
                 className="experience-text"
             >
                 Experience
