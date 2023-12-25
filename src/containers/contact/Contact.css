@@ -39,4 +39,17 @@
     .contact-text-p {
         font-size: 20px;
     }
+    
+}
+
+@media (max-width: 768px) {
+    .contact-main {
+        padding: 5%;
+        display: block;
+    }
+
+    .contact-card {
+        margin-bottom: 20px;
+        padding: 3px;
+    }
 }

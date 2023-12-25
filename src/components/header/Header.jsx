@@ -9,7 +9,7 @@ function Header(props) {
         <div>
             <header className="header">
                 <Fade top duration={1000} distance="20px">
-                    <ul className="menu">
+                    <ul>
                         <li>
                             <NavLink
                                 to={"/Home"}

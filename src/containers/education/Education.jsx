@@ -15,8 +15,8 @@ function Education(props) {
                         Education
                     </h1>
                     <h2
-                        style={{ color: theme.text }}
-                        className="education-history"
+                        style={{ color: theme.headline }}
+                        className="education-text-p"
                     >
                         Tarumanagara University
                     </h2>

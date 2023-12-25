@@ -16,7 +16,7 @@ function Greeting(props) {
                                 className="greeting-text"
                             >
                                 Renaldy Cahya</h1>
-                            <p className="greeting-nickname">Fullstack Web Developer</p>
+                            <p style={{ color: theme.headline }} className="greeting-nickname">Fullstack Web Developer</p>
                             <p className="greeting-text-p subTitle">Experienced Web Programmer with a demonstrated history of working in the insurance industry & IT Service/Solution. Skilled in PHP, JavaScript Strong engineering professional graduated from Universitas Tarumanagara.</p>
                         </div>
                     </div>
