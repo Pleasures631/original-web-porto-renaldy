@@ -1,0 +1,43 @@
+.experience-main-div {
+    display: flex;
+    overflow: hidden;
+  }
+
+.experience-main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+}
+
+.experience-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 70px;
+    line-height: 1.1;
+    font-family: "Google Sans Bold";
+}
+
+.experience-sub-text {
+    font-size: 30px;
+    line-height: 0px;
+    font-family: "Google Sans Bold Italic";
+}
+
+.experience-text-p {
+    font-size: 40px;
+    line-height: 40px;
+    margin-right: 40px;
+    font-family: "Google Sans Medium";
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+    .experience-text {
+        font-size: 50px;
+    }
+
+    .experience-text-p {
+        font-size: 20px;
+    }
+}
