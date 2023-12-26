@@ -11,13 +11,15 @@ function Contact(props) {
                 style={{ color: theme.headline }}
             >Contact</h1>
             <div className="contact-main">
-                <div className="contact-card">
-                    <p className="contact-text-p" style={{color :theme.text}}>Email</p>
-                    <p className="contact-text-p" style={{color :theme.text}}>renaldycahyaa@gmail.com</p>
-                </div>
-                <div className="contact-card">
-                    <p className="contact-text-p" style={{color :theme.text}}>WhatsApp</p>
-                    <p className="contact-text-p" style={{color :theme.text}}>+62 82211577756</p>
+                <div
+                    className="contact-card"
+                    style={{
+                        background: theme.text
+                    }}>
+                    <p className="contact-text-p" style={{ color: theme.textCard }}>Email</p>
+                    <p className="contact-text-p" style={{ color: theme.textCard }}>renaldycahyaa@gmail.com</p>
+                    <p className="contact-text-p" style={{ color: theme.textCard }}>WhatsApp</p>
+                    <p className="contact-text-p" style={{ color: theme.textCard }}>+62 82211577756</p>
                 </div>
             </div>
         </Fade>

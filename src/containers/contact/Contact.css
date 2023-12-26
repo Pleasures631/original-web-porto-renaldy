@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.2rem;
 }
 
 .contact-text {
@@ -24,10 +23,11 @@
     border: 1px solid transparent;
     border-radius: 2rem;
     /* border-color: blue; */
-    background: #fabe2c;
-    text-align: center;
+    /* background: #fabe2c;     */
     padding: 1.2rem;
-    line-height: 1.1;    
+    line-height: 1.1;   
+    max-width: auto;    
+    margin: 0px auto;   
 }
 
 /* Media Query */

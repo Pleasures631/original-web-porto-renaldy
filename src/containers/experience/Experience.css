@@ -15,29 +15,52 @@
     margin-top: 80px;
     font-size: 70px;
     line-height: 1.1;
-    font-family: "Google Sans Bold";
+    font-family: "cera-bold";
 }
 
 .experience-sub-text {
     font-size: 30px;    
-    font-family: "Google Sans Bold Italic";
+    font-family: "cera-medium";  
+    text-align: center;
 }
 
 .experience-text-p {
     font-size: 40px;
     line-height: 40px;
     margin-right: 40px;
-    font-family: "Google Sans Medium";
+    font-family: "cera-regular";
 }
 
 .experience-card {
     border: 1px solid transparent;
     border-radius: 2rem;
     /* border-color: blue; */
-    background: #fabe2c;    
+    /* background: #fabe2c;     */
     padding: 1.2rem;
     line-height: 1.1;   
-    width: 20rem; 
+    max-width: auto;    
+    margin: 0px auto;
+}
+
+.experience-card-title {    
+    /* border-radius: 2rem; */
+    /* border-color: blue; */
+    /* background: #fabe2c;     */
+    padding: 1.2rem;
+    line-height: 1.1;   
+    max-width: auto;    
+    margin: 0px auto;
+}
+
+.logo_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.experience-card-body {
+
 }
 
 /* Media Query */

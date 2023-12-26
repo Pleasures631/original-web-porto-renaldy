@@ -20,11 +20,28 @@
     font-family: "Google Sans Bold Italic";
 }
 
+.education-sub-text {
+    font-size: 30px;    
+    font-family: "Google Sans Bold Italic";
+    text-align: center;
+}
+
 .education-text-p {
     font-size: 40px;
     line-height: 40px;
     margin-right: 40px;
     font-family: "Google Sans Medium";
+}
+
+.education-card {
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    /* border-color: blue; */
+    /* background: #fabe2c;     */
+    padding: 1.2rem;
+    line-height: 1.1;   
+    max-width: auto;    
+    margin: 0px auto;   
 }
 
 /* Media Query */

@@ -15,6 +15,7 @@ export const skyTheme = {
     jacketColor: "#E1E2E1",
     headerColor: "#E1E2E1",
     splashBg: "#05505E",
+    textCard:"#d4af37"
 }
 
 export const chosenTheme = skyTheme;
