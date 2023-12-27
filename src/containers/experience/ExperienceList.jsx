@@ -17,12 +17,19 @@ function ExperienceList(props) {
                         <img
                             className="logo_img"
                             src={require(`../../${experience.logo_path}`)}
-                            // alt={certificate.alt_name}
+                        // alt={certificate.alt_name}
                         />
-                        <h3 className="experience-sub-text" style={{ color: theme.textCard }}>{experience.jobTitle}</h3>
+                        <h3 className="experience-sub-text" style={{ color: theme.headline }}>{experience.jobTitle}</h3>
+                        <h4 className="experience-sub-second-text" style={{ color: theme.headline }}>{experience.date}</h4>
+                        {/* <h5 className="experience-sub-second-text" style={{ color: theme.headline }}>Click For More Information.</h5> */}
                         {experience.experience.map((skills, i) => (
-                            <div className="experience-text-p" key={i} style={{ color: theme.text }}>{skills}</div>
+                            <div style={{display: "flex", gap: "1rem"}}>
+                                <img width="40" height="40" src="https://img.icons8.com/color/48/verified-badge.png" alt="verified-badge" />
+                                <div className="experience-text-p" key={i} style={{ color: theme.headline }}>{skills}</div>                                
+                            </div>
+
                         ))}
+
                     </div>
                 </div>
             </Fade>

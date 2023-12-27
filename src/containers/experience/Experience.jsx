@@ -13,7 +13,9 @@ function Experience(props) {
             >
                 Experience
             </h1>
+            <div className="experience-main-div">
             <ExperienceList theme={theme} />
+            </div>
         </Fade>
     );
 }

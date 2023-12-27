@@ -1,0 +1,78 @@
+.skill-main-div {
+    display: flex;    
+    flex-wrap: wrap;
+  }
+
+.skill-main {     
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.skill-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 70px;
+    line-height: 1.1;
+    font-family: "cera-bold";
+}
+
+.skill-sub-text {
+    font-size: 30px;    
+    font-family: "cera-regular";  
+    text-align: center;
+}
+
+.skill-sub-second-text {
+    font-size: 20px;    
+    font-family: "cera-light";      
+}
+
+.skill-sub-third-text {
+    font-size: 15px;    
+    font-family: "cera-thin";      
+}
+
+.skill-card {
+    flex: 1 0 calc(33.333% - 20px);
+    border: 3px solid transparent;
+    border-radius: 2rem;
+    /* border-color: blue; */
+    background: #fff;    
+    padding: 1.2rem;
+    line-height: 1.1;   
+    margin: 0px auto;
+    /* height: 40vh; */
+}
+
+.col-skill {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: DodgerBlue; */
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+    .skill-main {
+        width: 40%;
+    }
+
+    .skill-text {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .skill-main {
+        width: auto;
+    }
+
+    .skill-text {
+        font-size: 30px;
+    }
+
+    .row > * {
+        width: 50%!important;
+    }
+    
+}

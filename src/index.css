@@ -13,6 +13,16 @@
   src: url('../src/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-regular.otf');
 }
 
+@font-face {
+  font-family: 'cera-light';
+  src: url('../src/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-light.otf');
+}
+
+@font-face {
+  font-family: 'cera-thin';
+  src: url('../src/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-thin.otf');
+}
+
 
 body {
   margin: 0;

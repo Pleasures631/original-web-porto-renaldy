@@ -7,6 +7,7 @@ import Education from "../../containers/education/Education";
 import Project from "../../containers/projects/Project";
 import Contact from "../../containers/contact/Contact";
 import Experience from "../../containers/experience/Experience";
+import Skills from "../../containers/skills/Skill";
 
 function HomeComponent(props) {     
     return(
@@ -14,9 +15,10 @@ function HomeComponent(props) {
             <Header theme={props.theme}/>
             <Greeting theme={props.theme}/>
             <Experience theme={props.theme}/>
-            <Education theme={props.theme}/>
+            <Skills theme={props.theme}/>
+            {/* <Education theme={props.theme}/> */}
             {/* <Project theme={props.theme}/> */}
-            <Contact theme={props.theme}/>
+            {/* <Contact theme={props.theme}/> */}
             <Footer theme={props.theme}/>
             {/* <TopButton /> */}
         </div>

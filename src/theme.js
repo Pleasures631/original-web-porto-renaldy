@@ -4,7 +4,7 @@
 
 export const skyTheme = {
     headline:"#1f5c7a",
-    body: "#F1F1F1",
+    body: "#f1f1f1",
     text: "#333333",
     expTxtColor: "#000000",
     highlight: "#a1dded",

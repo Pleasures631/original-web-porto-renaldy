@@ -1,11 +1,10 @@
 .experience-main-div {
-    display: flex;
-    overflow: hidden;
+    display: flex;    
+    flex-wrap: wrap;
   }
 
-.experience-main {
-    width: 90%;
-    padding: 20px 10px;
+.experience-main {     
+    padding: 20px;
     margin: 0px auto;
 }
 
@@ -20,7 +19,13 @@
 
 .experience-sub-text {
     font-size: 30px;    
-    font-family: "cera-medium";  
+    font-family: "cera-regular";  
+    text-align: center;
+}
+
+.experience-sub-second-text {
+    font-size: 20px;    
+    font-family: "cera-thin";  
     text-align: center;
 }
 
@@ -28,18 +33,19 @@
     font-size: 40px;
     line-height: 40px;
     margin-right: 40px;
-    font-family: "cera-regular";
+    font-family: "cera-light";
 }
 
 .experience-card {
-    border: 1px solid transparent;
+    flex: 1 0 calc(33.333% - 20px);
+    border: 3px solid transparent;
     border-radius: 2rem;
     /* border-color: blue; */
-    /* background: #fabe2c;     */
+    background: #fff;    
     padding: 1.2rem;
     line-height: 1.1;   
-    max-width: auto;    
     margin: 0px auto;
+    /* height: 40vh; */
 }
 
 .experience-card-title {    
@@ -59,10 +65,6 @@
     width: 40%;
 }
 
-.experience-card-body {
-
-}
-
 /* Media Query */
 @media (max-width: 1380px) {
     .experience-text {
@@ -71,11 +73,23 @@
 
     .experience-text-p {
         font-size: 20px;
+    }   
+    
+    .experience-main {
+        width: 60%;   
     }
 }
 
 @media (max-width: 768px) {
     .experience-text-p {
         font-size: 16px;
+    }
+
+    .experience-text {
+        font-size: 30px;
+    }
+    
+    .experience-main {
+        width: auto;   
     }
 }
