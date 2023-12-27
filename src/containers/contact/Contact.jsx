@@ -10,7 +10,9 @@ function Contact(props) {
                 className="contact-text"
                 style={{ color: theme.headline }}
             >Contact</h1>
-            <div className="contact-main">
+            <div className="contact-main"style={{
+                        background: theme.text
+                    }}>
                 <div
                     className="contact-card"
                     style={{

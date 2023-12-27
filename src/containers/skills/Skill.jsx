@@ -11,7 +11,7 @@ function skill(props) {
                 style={{color : theme.headline}}
                 className="skill-text"
             >
-                Skills What i Have
+                Skills
             </h1>
             <div className="skill-main-div">
             <SkillList theme={theme} />

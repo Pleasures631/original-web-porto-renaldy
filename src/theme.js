@@ -4,9 +4,9 @@
 
 export const skyTheme = {
     headline:"#1f5c7a",
-    body: "#f1f1f1",
+    body: "#fff",
     text: "#333333",
-    expTxtColor: "#000000",
+    expTxtColor: "#111111",
     highlight: "#a1dded",
     dark: "#07292c",
     secondaryText: "#05505E",
@@ -15,7 +15,8 @@ export const skyTheme = {
     jacketColor: "#E1E2E1",
     headerColor: "#E1E2E1",
     splashBg: "#05505E",
-    textCard:"#d4af37"
+    textCard:"#d4af37",
+    footer:"#f1f1f1"
 }
 
 export const chosenTheme = skyTheme;
