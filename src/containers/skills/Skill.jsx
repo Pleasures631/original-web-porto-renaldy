@@ -14,6 +14,15 @@ function skill(props) {
             >
                 Skills
             </h1>
+            <hr style={{
+                    marginTop: "1rem",
+                    marginBottom: "2rem",
+                    border: "0",
+                    borderTop: `3px solid ${theme.greenText}`,
+                    width: "12%",
+                    margin: "0 auto"
+                }}>
+                </hr>
             <div className="skill-main-div">
             <SkillList theme={theme} />
             </div>

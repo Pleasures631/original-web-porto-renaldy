@@ -6,18 +6,27 @@ import ExperienceList from "./ExperienceList";
 function Experience(props) {
     const theme = props.theme;
     return (
-        <div style={{backgroundColor: theme.bgExperience}}>
-        <Fade top duration={1000} distance="20px">
-            <h1
-                style={{color : theme.textExperience, paddingTop:"10%"}}
-                className="experience-text"
-            >
-                Experience
-            </h1>
-            <div className="experience-main-div">
-            <ExperienceList theme={theme} />
-            </div>
-        </Fade>
+        <div style={{ backgroundColor: theme.bgExperience }}>
+            <Fade top duration={1000} distance="20px">
+                <h1
+                    style={{ color: theme.textExperience, paddingTop: "10%" }}
+                    className="experience-text"
+                >
+                    Experience
+                </h1>
+                <hr style={{
+                    marginTop: "1rem",
+                    marginBottom: "2rem",
+                    border: "0",
+                    borderTop: `3px solid ${theme.textExperience}`,
+                    width: "20%",
+                    margin: "0 auto"
+                }}>
+                </hr>
+                <div className="experience-main-div">
+                    <ExperienceList theme={theme} />
+                </div>
+            </Fade>
         </div>
     );
 }
