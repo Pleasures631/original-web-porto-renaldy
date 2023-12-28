@@ -32,14 +32,14 @@
   
   .greeting-text {
     margin-top: 80px;
-    font-size: 70px;
+    font-size: 2.5rem;
     line-height: 1.1;
     font-family: "cera-bold";
   }
   
   .greeting-nickname {
     font-size: 30px;
-    line-height: 0px;
+    line-height: 20px;
     font-family: "cera-medium";
   }
   
@@ -54,8 +54,25 @@
     max-width: 100%;
     height: auto;
   }
+
+  .greeting-card-image {
+    border: 5px solid transparent;
+    border-radius: 2rem;
+    background: #000; 
+    background-image:url('../../selca1.jpg'); 
+    background-size:cover;
+  }
   
   /* Media Query */
+
+  @media (max-width: 1920px) {
+    .greeting-card-image {
+      width:600px; 
+      height:600px; 
+    }
+
+  }
+
   @media (max-width: 1380px) {
     .greeting-text {
       font-size: 50px;
@@ -63,8 +80,20 @@
     .greeting-text-p {
       font-size: 20px;
     }
+
+    .greeting-card-image {
+      width:500px; 
+      height:500px; 
+    }
+
   }
   @media (max-width: 768px) {
+
+    .greeting-card-image {
+      width:350px; 
+      height:350px; 
+    }
+
     .button-greeting-div {
       justify-content: space-around;
     }

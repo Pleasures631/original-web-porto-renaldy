@@ -3,7 +3,7 @@
  */
 
 export const skyTheme = {
-    headline:"#1f5c7a",
+    headline:"#183153",
     body: "#fff",
     text: "#333333",
     expTxtColor: "#111111",
@@ -16,7 +16,11 @@ export const skyTheme = {
     headerColor: "#E1E2E1",
     splashBg: "#05505E",
     textCard:"#d4af37",
-    footer:"#f1f1f1"
+    footer:"#f1f1f1",
+    bgBody:"#f1f1f1",
+    textExperience:"#ffd43b",
+    bgExperience:"#183153",
+    greenText:"#63e6be",
 }
 
 export const chosenTheme = skyTheme;

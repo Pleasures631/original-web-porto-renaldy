@@ -11,7 +11,6 @@
 .skill-text {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
     font-size: 70px;
     line-height: 1.1;
     font-family: "cera-bold";
@@ -24,7 +23,7 @@
 }
 
 .skill-sub-second-text {
-    font-size: 20px;    
+    font-size: 17px;    
     font-family: "cera-light";      
 }
 
@@ -52,6 +51,16 @@
 }
 
 /* Media Query */
+@media (max-width: 1920px) {
+    .skill-text {
+        font-size: 60px;
+    } 
+    
+    .skill-main {
+        width: 35%;   
+    }
+}
+
 @media (max-width: 1380px) {
     .skill-main {
         width: 40%;

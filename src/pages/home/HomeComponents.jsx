@@ -12,7 +12,7 @@ import Skills from "../../containers/skills/Skill";
 function HomeComponent(props) {     
     return(
         <div>
-            <Header theme={props.theme}/>
+            {/* <Header theme={props.theme}/> */}
             <Greeting theme={props.theme}/>
             <Experience theme={props.theme}/>
             <Skills theme={props.theme}/>

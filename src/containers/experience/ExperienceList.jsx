@@ -11,7 +11,7 @@ function ExperienceList(props) {
                 <div className="experience-main">
                     <div
                         className="experience-card"
-                        style={{ borderColor: theme.headline }}
+                        style={{ borderColor: theme.textExperience }}
                     >
                         {/* <h2 className="experience-sub-text" style={{ color: theme.textCard }}>{experience.office}</h2> */}
                         <img
@@ -23,8 +23,8 @@ function ExperienceList(props) {
                         <h4 className="experience-sub-second-text" style={{ color: theme.headline }}>{experience.date}</h4>
                         {/* <h5 className="experience-sub-second-text" style={{ color: theme.headline }}>Click For More Information.</h5> */}
                         {experience.experience.map((skills, i) => (
-                            <div style={{display: "flex", gap: "1rem"}}>
-                                <img width="40" height="40" src="https://img.icons8.com/color/48/verified-badge.png" alt="verified-badge" />
+                            <div style={{display: "flex", gap: "1rem", padding: "10px",alignItems: "baseline"}}>
+                                <img width="20" height="20" src="https://img.icons8.com/color/48/verified-badge.png" alt="verified-badge" />
                                 <div className="experience-text-p" key={i} style={{ color: theme.headline }}>{skills}</div>                                
                             </div>
 

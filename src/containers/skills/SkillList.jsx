@@ -9,7 +9,7 @@ function SkillList(props) {
             <Fade top duration={1000} distance="20px">
                 <div className="skill-main">
                     <div
-                        style={{ borderColor: theme.headline }}
+                        style={{ borderColor: theme.greenText }}
                         className="skill-card">
                         <h1
                             key={i}
@@ -20,7 +20,7 @@ function SkillList(props) {
                             {skill.skillLanguage.map((skillLanguages, i) => (
                                 <div className="col-md-6" style={{ display: "flex", gap: "1rem", padding: "10px", alignItems: "baseline" }}>
                                     <div>
-                                        <img width="40" height="40" src="https://img.icons8.com/color/48/verified-badge.png" alt="verified-badge" />
+                                        <img width="20" height="20" src="https://img.icons8.com/color/48/verified-badge.png" alt="verified-badge" />
                                     </div>
                                     <div>
                                         <h2 className="skill-sub-second-text" key={i} style={{ color: theme.headline }}>{skillLanguages.skillName}</h2>
