@@ -1,11 +1,24 @@
 {
   "files": {
-    "main.css": "/original-web-porto-renaldy/static/css/main.0e8abcf0.css",
-    "main.js": "/original-web-porto-renaldy/static/js/main.d93e1c27.js",
+    "main.css": "/original-web-porto-renaldy/static/css/main.dfc69771.css",
+    "main.js": "/original-web-porto-renaldy/static/js/main.e1e8cdac.js",
     "static/js/787.25f7bd6a.chunk.js": "/original-web-porto-renaldy/static/js/787.25f7bd6a.chunk.js",
     "static/media/Monkey-D-Luffy-Gear-5-PNG.png": "/original-web-porto-renaldy/static/media/Monkey-D-Luffy-Gear-5-PNG.596aeba49954c88e9ede.png",
     "static/media/typemates-ceraroundpro-specimen.pdf": "/original-web-porto-renaldy/static/media/typemates-ceraroundpro-specimen.6c75bf6a425202bd3a9a.pdf",
+    "static/media/selca1.jpg": "/original-web-porto-renaldy/static/media/selca1.cdfd64c179b9bca70078.jpg",
+    "static/media/Roboto-BlackItalic.ttf": "/original-web-porto-renaldy/static/media/Roboto-BlackItalic.fd62a10743bd89a3d97c.ttf",
+    "static/media/Roboto-MediumItalic.ttf": "/original-web-porto-renaldy/static/media/Roboto-MediumItalic.82736aaa11c64709055f.ttf",
+    "static/media/Roboto-LightItalic.ttf": "/original-web-porto-renaldy/static/media/Roboto-LightItalic.c590382422f2742d788b.ttf",
+    "static/media/Roboto-ThinItalic.ttf": "/original-web-porto-renaldy/static/media/Roboto-ThinItalic.9d2ca34eae96e77c6eef.ttf",
+    "static/media/Roboto-BoldItalic.ttf": "/original-web-porto-renaldy/static/media/Roboto-BoldItalic.87d61cea6fe1d235d4a8.ttf",
+    "static/media/Roboto-Italic.ttf": "/original-web-porto-renaldy/static/media/Roboto-Italic.87f3afe16a8c3c370634.ttf",
+    "static/media/Roboto-Medium.ttf": "/original-web-porto-renaldy/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "static/media/Roboto-Thin.ttf": "/original-web-porto-renaldy/static/media/Roboto-Thin.a732a12eb07742232407.ttf",
+    "static/media/Roboto-Regular.ttf": "/original-web-porto-renaldy/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Roboto-Black.ttf": "/original-web-porto-renaldy/static/media/Roboto-Black.cf56c1b149d0a5e8d7c6.ttf",
+    "static/media/Roboto-Bold.ttf": "/original-web-porto-renaldy/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
     "static/media/logo_santo_paulus.png": "/original-web-porto-renaldy/static/media/logo_santo_paulus.206a06251772b5326c52.png",
+    "static/media/Roboto-Light.ttf": "/original-web-porto-renaldy/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
     "static/media/logo_fpm.png": "/original-web-porto-renaldy/static/media/logo_fpm.5836d990a7b115d47fff.png",
     "static/media/background.jpg": "/original-web-porto-renaldy/static/media/background.abdba327f9198f114b48.jpg",
     "static/media/Fontspring-DEMO-ceraroundpro-black.otf": "/original-web-porto-renaldy/static/media/Fontspring-DEMO-ceraroundpro-black.a9cbb7a0387bdec5919d.otf",
@@ -23,17 +36,18 @@
     "static/media/FONTSPRINGDEMO-CeraRoundProLightRegular.woff": "/original-web-porto-renaldy/static/media/FONTSPRINGDEMO-CeraRoundProLightRegular.e9f4062157b5f8f96c5a.woff",
     "static/media/FONTSPRINGDEMO-CeraRoundProBlackRegular.woff": "/original-web-porto-renaldy/static/media/FONTSPRINGDEMO-CeraRoundProBlackRegular.64f13dd44d7d11a53aca.woff",
     "static/media/FONTSPRINGDEMO-CeraRoundProThinRegular.woff": "/original-web-porto-renaldy/static/media/FONTSPRINGDEMO-CeraRoundProThinRegular.c9104c5834ce256088a7.woff",
+    "static/media/LICENSE.txt": "/original-web-porto-renaldy/static/media/LICENSE.253cc3b116186178e242.txt",
     "static/media/logo_adins.png": "/original-web-porto-renaldy/static/media/logo_adins.87a471ed5b80178dfdd6.png",
     "static/media/Demo.txt": "/original-web-porto-renaldy/static/media/Demo.da814f53d43df11a4c24.txt",
     "static/media/logo.svg": "/original-web-porto-renaldy/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/Release Notes.txt": "/original-web-porto-renaldy/static/media/Release Notes.e6eeb5b550ed5d563abc.txt",
     "index.html": "/original-web-porto-renaldy/index.html",
-    "main.0e8abcf0.css.map": "/original-web-porto-renaldy/static/css/main.0e8abcf0.css.map",
-    "main.d93e1c27.js.map": "/original-web-porto-renaldy/static/js/main.d93e1c27.js.map",
+    "main.dfc69771.css.map": "/original-web-porto-renaldy/static/css/main.dfc69771.css.map",
+    "main.e1e8cdac.js.map": "/original-web-porto-renaldy/static/js/main.e1e8cdac.js.map",
     "787.25f7bd6a.chunk.js.map": "/original-web-porto-renaldy/static/js/787.25f7bd6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e8abcf0.css",
-    "static/js/main.d93e1c27.js"
+    "static/css/main.dfc69771.css",
+    "static/js/main.e1e8cdac.js"
   ]
 }
