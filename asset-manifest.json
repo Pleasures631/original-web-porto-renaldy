@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/original-web-porto-renaldy/static/css/main.95c8e74c.css",
+    "main.css": "/original-web-porto-renaldy/static/css/main.baa55ce9.css",
     "main.js": "/original-web-porto-renaldy/static/js/main.2ff6eb1a.js",
     "static/js/787.25f7bd6a.chunk.js": "/original-web-porto-renaldy/static/js/787.25f7bd6a.chunk.js",
     "static/media/Monkey-D-Luffy-Gear-5-PNG.png": "/original-web-porto-renaldy/static/media/Monkey-D-Luffy-Gear-5-PNG.596aeba49954c88e9ede.png",
@@ -48,12 +48,12 @@
     "static/media/blob-scene-haikei-mobile.svg": "/original-web-porto-renaldy/static/media/blob-scene-haikei-mobile.e65085fd66bdf3502a72.svg",
     "static/media/wave-haikei.svg": "/original-web-porto-renaldy/static/media/wave-haikei.c2a8c500894e3db130f0489776aedc61.svg",
     "index.html": "/original-web-porto-renaldy/index.html",
-    "main.95c8e74c.css.map": "/original-web-porto-renaldy/static/css/main.95c8e74c.css.map",
+    "main.baa55ce9.css.map": "/original-web-porto-renaldy/static/css/main.baa55ce9.css.map",
     "main.2ff6eb1a.js.map": "/original-web-porto-renaldy/static/js/main.2ff6eb1a.js.map",
     "787.25f7bd6a.chunk.js.map": "/original-web-porto-renaldy/static/js/787.25f7bd6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95c8e74c.css",
+    "static/css/main.baa55ce9.css",
     "static/js/main.2ff6eb1a.js"
   ]
 }
