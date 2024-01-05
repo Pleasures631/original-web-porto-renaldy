@@ -157,19 +157,20 @@ const skill = {
           levelSkill:"Intermediate"
         },
       ],
-    }, {
-      skillTitle: "Language",
-      skillLanguage: [
-        {          
-            skillName:"Bahasa",
-            levelSkill:"Expert"
-        },
-        {          
-          skillName:"English",
-          levelSkill:"Intermediate"
-      },
-      ],
-    }
+    }, 
+    // {
+    //   skillTitle: "Language",
+    //   skillLanguage: [
+    //     {          
+    //         skillName:"Bahasa",
+    //         levelSkill:"Expert"
+    //     },
+    //     {          
+    //       skillName:"English",
+    //       levelSkill:"Intermediate"
+    //   },
+    //   ],
+    // }
   ]
 }
 

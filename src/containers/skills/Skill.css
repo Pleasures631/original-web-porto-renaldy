@@ -1,9 +1,9 @@
 .skill-main-div {
-    display: flex;    
-    flex-wrap: wrap;
-  }
+    display: flex;
 
-.skill-main {     
+}
+
+.skill-main {
     padding: 20px;
     margin: 0px auto;
 }
@@ -17,19 +17,19 @@
 }
 
 .skill-sub-text {
-    font-size: 30px;    
-    font-family: "cera-regular";  
+    font-size: 30px;
+    font-family: "cera-regular";
     text-align: center;
 }
 
 .skill-sub-second-text {
-    font-size: 17px;    
-    font-family: "cera-light";      
+    font-size: 17px;
+    font-family: "cera-light";
 }
 
 .skill-sub-third-text {
-    font-size: 15px;    
-    font-family: "cera-thin";      
+    font-size: 15px;
+    font-family: "cera-thin";
 }
 
 .skill-card {
@@ -37,11 +37,10 @@
     border: 3px solid transparent;
     border-radius: 2rem;
     /* border-color: blue; */
-    background: #fff;    
+    background: #fff;
     padding: 1.2rem;
-    line-height: 1.1;   
+    line-height: 1.1;
     margin: 0px auto;
-    /* height: 40vh; */
 }
 
 .col-skill {
@@ -54,20 +53,24 @@
 @media (max-width: 1920px) {
     .skill-text {
         font-size: 60px;
-    } 
-    
+    }
+
     .skill-main {
-        width: 35%;   
+        width: 35%;
     }
 }
 
 @media (max-width: 1380px) {
     .skill-main {
-        width: 40%;
+        width: 30%;
     }
 
     .skill-text {
         font-size: 50px;
+    }
+
+    .skill-card {
+        height: 110vh;
     }
 }
 
@@ -76,12 +79,20 @@
         width: auto;
     }
 
+    .skill-main-div {
+        flex-wrap: wrap;
+    }
+
     .skill-text {
         font-size: 30px;
+    }
+
+    .skill-card {
+        height: auto;
     }
 
     .row > * {
         width: 50%;
     }
-    
+
 }

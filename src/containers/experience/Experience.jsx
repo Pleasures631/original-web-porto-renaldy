@@ -1,16 +1,17 @@
-import React from "react";
+import { useRef, forwardRef, useImperativeHandle } from "react";
 import "./Experience.css";
 import { Fade } from "react-reveal";
 import ExperienceList from "./ExperienceList";
 
-function Experience(props) {
-    const theme = props.theme;
+// function Experience(props) {
+const Experience = forwardRef(({ theme }, ref) => {
+
     return (
-        <div style={{ backgroundColor: theme.bgExperience }}>
+        <div style={{ backgroundColor: theme.bgExperience }} ref={ref}>
             <Fade top duration={1000} distance="20px">
                 <h1
                     style={{ color: theme.textExperience, paddingTop: "10%" }}
-                    className="experience-text"
+                    className="experience-text"                    
                 >
                     Experience
                 </h1>
@@ -29,6 +30,6 @@ function Experience(props) {
             </Fade>
         </div>
     );
-}
+});
 
 export default Experience;

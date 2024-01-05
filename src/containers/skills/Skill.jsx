@@ -1,15 +1,17 @@
-import React from "react";
+import { forwardRef } from "react";
 import { Fade } from "react-reveal";
 import SkillList from "./SkillList";
 import "./Skill.css";
 
-function skill(props) {
-    const theme = props.theme;
+const Skill = forwardRef(({ theme }, ref) => {
+// function skill(props) {
+
+    // const theme = props.theme;
     return(
-        <div style={{backgroundColor: theme.bgBody}}>
+        <div style={{backgroundColor: theme.bgBody}} ref={ref}>
         <Fade top duration={1000} distance="20px">
             <h1
-                style={{color : theme.greenText, paddingTop:"10%"}}
+                style={{color : theme.greenText, paddingTop:"5%"}}
                 className="skill-text"
             >
                 Skills
@@ -29,6 +31,6 @@ function skill(props) {
         </Fade>
         </div>
     );
-}
+});
 
-export default skill;
+export default Skill;

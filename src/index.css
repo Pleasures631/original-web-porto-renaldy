@@ -42,5 +42,23 @@ code {
     monospace;
 }
 
+.background-image-div {
+  background-size: cover;  
+}
+
+@media (max-width: 1380px) {
+  .background-image-div {
+    background-image: url('./blob-scene-haikei.svg');
+    height: 97vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .background-image-div {
+    background-image: url('./blob-scene-haikei-mobile.svg');
+    height: 102vh;
+  }
+}
+
 
 

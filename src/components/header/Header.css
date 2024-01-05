@@ -2,9 +2,14 @@
 
 .header {
     display: block;
-    max-width: 90%;
-    padding: 20px 10px;
+    max-width: 100%;
+    /* padding: 20px 10px; */
     margin: 0px auto;
+  }
+
+  .header-text {    
+    font-size: 1rem;        
+    font-family: "cera-bold";
   }
   
   .header ul {

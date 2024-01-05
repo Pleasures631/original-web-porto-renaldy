@@ -1,14 +1,15 @@
-import React from "react";
+import { forwardRef } from "react";
 import "./Footer.css";
 import { Fade } from "react-reveal";
 import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
 
-function Footer(props) {
-  const theme = props.theme;
+// function Footer(props) {
+  const Footer = forwardRef(({ theme }, ref) => {
+  // const theme = props.theme;
   let circleClasses = "inline-block p-7 rounded-full w-20 mx-auto";
   let iconStyles = { color: "white", fontSize: "1.5em" };
   return (
-    <div className="footer-div">
+    <div className="footer-div" ref={ref}>
       <Fade>
         <div className="row" style={{ backgroundColor: theme.bgExperience }} >
           <div>
@@ -36,6 +37,6 @@ function Footer(props) {
       </Fade>
     </div>
   );
-}
+});
 
 export default Footer;
