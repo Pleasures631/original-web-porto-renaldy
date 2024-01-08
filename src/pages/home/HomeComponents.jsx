@@ -20,8 +20,8 @@ function HomeComponent(props) {
 
     return (
         <div>
-            <div className="background-image-div">
-                <Header resultRef={resultRef} resultRef2={resultRef2} resultRef3={resultRef3} theme={props.theme} />
+            <Header resultRef={resultRef} resultRef2={resultRef2} resultRef3={resultRef3} theme={props.theme} />
+            <div className="background-image-div">                
                 <Greeting theme={props.theme} />
                 <ArrowButton theme={props.theme} resultRef4={resultRef4} />
             </div>

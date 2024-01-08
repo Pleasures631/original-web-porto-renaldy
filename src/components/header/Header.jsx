@@ -11,7 +11,7 @@ const Header = ({ theme, resultRef, resultRef2, resultRef3 }) => {
     };
 
     return (
-        <div>
+        <div style={{position:"fixed", top:"0", right:"0", left:"0", zIndex:"1000"}}>
             <header className="header" style={{position:"relative", zIndex:"1"}}>
                 <Fade top duration={1000} distance="20px">
                     <div>
