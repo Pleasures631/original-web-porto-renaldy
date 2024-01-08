@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/original-web-porto-renaldy/static/css/main.6ce50222.css",
-    "main.js": "/original-web-porto-renaldy/static/js/main.bb624884.js",
+    "main.css": "/original-web-porto-renaldy/static/css/main.5fff387d.css",
+    "main.js": "/original-web-porto-renaldy/static/js/main.f64ffe23.js",
     "static/js/787.25f7bd6a.chunk.js": "/original-web-porto-renaldy/static/js/787.25f7bd6a.chunk.js",
     "static/media/Monkey-D-Luffy-Gear-5-PNG.png": "/original-web-porto-renaldy/static/media/Monkey-D-Luffy-Gear-5-PNG.596aeba49954c88e9ede.png",
     "static/media/typemates-ceraroundpro-specimen.pdf": "/original-web-porto-renaldy/static/media/typemates-ceraroundpro-specimen.6c75bf6a425202bd3a9a.pdf",
@@ -41,19 +41,18 @@
     "static/media/LICENSE.txt": "/original-web-porto-renaldy/static/media/LICENSE.253cc3b116186178e242.txt",
     "static/media/logo_adins.png": "/original-web-porto-renaldy/static/media/logo_adins.87a471ed5b80178dfdd6.png",
     "static/media/Demo.txt": "/original-web-porto-renaldy/static/media/Demo.da814f53d43df11a4c24.txt",
-    "static/media/layered-waves-haikei.svg": "/original-web-porto-renaldy/static/media/layered-waves-haikei.b9b1ed0b82c6d1b2aafe.svg",
     "static/media/logo.svg": "/original-web-porto-renaldy/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/Release Notes.txt": "/original-web-porto-renaldy/static/media/Release Notes.e6eeb5b550ed5d563abc.txt",
-    "static/media/blob-scene-haikei.svg": "/original-web-porto-renaldy/static/media/blob-scene-haikei.ef53d8a809bb6d7f5fd2ee38aa5bc025.svg",
-    "static/media/blob-scene-haikei-mobile.svg": "/original-web-porto-renaldy/static/media/blob-scene-haikei-mobile.e65085fd66bdf3502a72.svg",
+    "static/media/blob-scene-haikei.svg": "/original-web-porto-renaldy/static/media/blob-scene-haikei.c7a1c48a66dcac542bad9edc2bd59d87.svg",
+    "static/media/blob-scene-haikei-mobile.svg": "/original-web-porto-renaldy/static/media/blob-scene-haikei-mobile.05f892f18fa45fb44045.svg",
     "static/media/wave-haikei.svg": "/original-web-porto-renaldy/static/media/wave-haikei.c2a8c500894e3db130f0489776aedc61.svg",
     "index.html": "/original-web-porto-renaldy/index.html",
-    "main.6ce50222.css.map": "/original-web-porto-renaldy/static/css/main.6ce50222.css.map",
-    "main.bb624884.js.map": "/original-web-porto-renaldy/static/js/main.bb624884.js.map",
+    "main.5fff387d.css.map": "/original-web-porto-renaldy/static/css/main.5fff387d.css.map",
+    "main.f64ffe23.js.map": "/original-web-porto-renaldy/static/js/main.f64ffe23.js.map",
     "787.25f7bd6a.chunk.js.map": "/original-web-porto-renaldy/static/js/787.25f7bd6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ce50222.css",
-    "static/js/main.bb624884.js"
+    "static/css/main.5fff387d.css",
+    "static/js/main.f64ffe23.js"
   ]
 }
