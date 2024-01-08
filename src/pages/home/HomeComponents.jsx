@@ -9,6 +9,7 @@ import Contact from "../../containers/contact/Contact";
 import Experience from "../../containers/experience/Experience";
 import Skills from "../../containers/skills/Skill";
 import BackgroundGreeting from '../../blob-scene-haikei.svg';
+import ArrowButton from "../../components/arrow/ArrowButton";
 
 function HomeComponent(props) {
     const resultRef = useRef(null);
@@ -19,11 +20,10 @@ function HomeComponent(props) {
 
     return (
         <div>
-            <div>
-                <div className="background-image-div">
-                    <Header resultRef={resultRef} resultRef2={resultRef2} resultRef3={resultRef3} theme={props.theme} />
-                    <Greeting theme={props.theme} resultRef4={resultRef4} />
-                </div>
+            <div className="background-image-div">
+                <Header resultRef={resultRef} resultRef2={resultRef2} resultRef3={resultRef3} theme={props.theme} />
+                <Greeting theme={props.theme} />
+                <ArrowButton theme={props.theme} resultRef4={resultRef4} />
             </div>
             <Experience ref={resultRef2} theme={props.theme} />
             <Skills ref={resultRef3} theme={props.theme} />

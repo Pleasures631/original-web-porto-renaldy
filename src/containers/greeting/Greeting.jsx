@@ -7,14 +7,7 @@ import { FaArrowDownLong, FaWhatsapp } from "react-icons/fa6";
 import { NavLink, Link } from "react-router-dom";
 
 // const Greeting = forwardRef(({theme}, ref) => {
-function Greeting({ theme, resultRef4 }) {
-    const handleClick = (ref) => {
-        // Memastikan bahwa secondChildRef.current sudah terisi sebelum menggunakan
-        // if (resultRef.current) {            
-        // Memanggil fungsi pada komponen kedua untuk menggulir
-        ref.current.scrollIntoView({ behavior: 'smooth' });
-        // }
-    };
+function Greeting({ theme }) {
     return (
         <Fade bottom duration={2000} distance="10px">
             <div>
@@ -37,18 +30,11 @@ function Greeting({ theme, resultRef4 }) {
                             <FaWhatsapp size={25} /> Contact Me
                         </a>
                     </div>
-                    <NavLink
-                        onClick={() => handleClick(resultRef4)}
-                        activeStyle={{ fontWeight: "bold" }}
-                        style={{ color: theme.headline, float: "right", marginTop:"2rem" }}
-                        className="header-text"
-                    >
-                        <FaArrowDownLong className="arrow-bounce-icon" size={50} />
-                    </NavLink>
                     {/* <div style={{float:"right"}}>
                         
                     </div> */}
                 </div>
+                
             </div>
         </Fade>
     );
