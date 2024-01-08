@@ -3,7 +3,7 @@
 .header {
     display: block;
     max-width: 100%;
-    /* padding: 20px 10px; */
+    padding: 20px 10px;
     margin: 0px auto;
   }
 
@@ -108,7 +108,7 @@
   }
   
   .header .menu-btn:checked ~ .menu {
-    max-height: 370px;
+    max-height: 370px;    
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -140,7 +140,7 @@
       justify-content: center;
     }
     .header .menu {
-      max-height: none;
+      max-height: none;            
     }
     .header .menu-icon {
       display: none;
@@ -151,4 +151,18 @@
       font-size: 12px;
     }
   }
+
+    @media (max-width: 768px){
+    .header .menu {
+      position:absolute;
+      z-index: 2;
+      top: 3rem;
+      width: 25rem;
+      height: 25vh;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      text-align: center;      
+    }
+  }
+  
   
