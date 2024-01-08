@@ -10,8 +10,9 @@ import { NavLink, Link } from "react-router-dom";
 function Greeting({ theme }) {
     return (
         <Fade bottom duration={2000} distance="10px">
-            <div>
-                <div className="greet-main">
+            <div style={{position:"relative", width:"100%", height:"100%"}}>
+                <div style={{position:"absolute", top:"50%", left:"50%", transform: "translate(-50%, -50%)"}}>
+                    {/* <div className="greet-main"> */}
                     <div className="greeting-image-div" style={{ display: 'flex', justifyContent: 'center', marginTop: '1.5rem' }}>
                         <div className="rounded-circle greeting-card-image">
                         </div>
@@ -34,8 +35,8 @@ function Greeting({ theme }) {
                         
                     </div> */}
                 </div>
-                
             </div>
+            {/* </div> */}
         </Fade>
     );
 };
