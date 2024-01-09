@@ -115,7 +115,7 @@
     }
   }
 
-  @media (min-width: 1025px) and  (max-width: 1025px){
+  @media (min-width: 1025px){
     .greeting-text {
       font-size: 20px;
     }
