@@ -101,15 +101,21 @@
   
   /* Media Query */
 
-  @media (max-width: 1920px) {
+  @media (max-width: 3841px) {
     .greeting-card-image {
-      width:600px; 
-      height:600px; 
+      width:400px; 
+      height:400px; 
     }
-
   }
 
-  @media (max-width: 1380px) {
+  @media (max-width: 1920px) {
+    .greeting-card-image {
+      width:300px; 
+      height:300px; 
+    }
+  }
+
+  @media (min-width: 1025px) and  (max-width: 1025px){
     .greeting-text {
       font-size: 20px;
     }

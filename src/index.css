@@ -43,20 +43,14 @@ code {
 }
 
 .background-image-div {
-  background-size: cover;  
-}
-
-@media (max-width: 1380px) {
-  .background-image-div {
-    background-image: url('./blob-scene-haikei.svg');
-    height: 100vh;
-  }
+  background-size: cover;
+  background-image: url('./blob-scene-haikei.svg');
+  height: 100vh;
 }
 
 @media (max-width: 768px) {
   .background-image-div {
-    background-image: url('./blob-scene-haikei-mobile.svg');
-    height: 100vh;
+    background-image: url('./blob-scene-haikei-mobile.svg');    
   }
 }
 
