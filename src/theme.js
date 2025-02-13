@@ -2,25 +2,65 @@
  * theme for color template 
  */
 
-export const skyTheme = {
-    headline:"#183153",
-    body: "#fff",
-    text: "#333333",
-    expTxtColor: "#111111",
-    highlight: "#a1dded",
-    dark: "#07292c",
-    secondaryText: "#05505E",
-    imageHighlight: "#0a343c",
-    compImgHighlight: "#E1E2E1",
-    jacketColor: "#E1E2E1",
-    headerColor: "#E1E2E1",
-    splashBg: "#05505E",
-    textCard:"#d4af37",
-    footer:"#f1f1f1",
-    bgBody:"#f1f1f1",
-    textExperience:"#ffd43b",
-    bgExperience:"#183153",
-    greenText:"#63e6be",
-}
+import { createContext, useState, useContext } from "react";
 
-export const chosenTheme = skyTheme;
+const ThemeContext = createContext();
+
+export const ThemeProvider = ({ children }) => {
+    const [isDarkMode, setIsDarkMode] = useState(false);
+
+    const toggleTheme = () => {
+        setIsDarkMode((prevMode) => !prevMode);
+    };
+
+    const theme = isDarkMode
+        ? {
+            headline: "#EAEAEA",
+            body: "#121212",
+            text: "#EAEAEA",
+            expTxtColor: "#EAEAEA",
+            highlight: "#00A8E8",
+            dark: "#181818",
+            secondaryText: "#86E0F9",
+            imageHighlight: "#252525",
+            compImgHighlight: "#303030",
+            jacketColor: "#222222",
+            headerColor: "#252525",
+            splashBg: "#121212",
+            textCard: "#FFD700",
+            footer: "#181818",
+            bgBody: "#121212",
+            textExperience: "#63E6BE",
+            bgExperience: "#1F1F1F",
+            greenText: "#20C20E",
+        }
+        : {
+            headline: "#222831",
+            body: "#ffffff",
+            text: "#333333",
+            expTxtColor: "#222831",
+            highlight: "#00ADB5",
+            dark: "#393E46",
+            secondaryText: "#008080",
+            imageHighlight: "#EEEEEE",
+            compImgHighlight: "#DDDDDD",
+            jacketColor: "#CCCCCC",
+            headerColor: "#EEEEEE",
+            splashBg: "#00ADB5",
+            textCard: "#FF8C00",
+            footer: "#f1f1f1",
+            bgBody: "#ffffff",
+            textExperience: "#FFD700",
+            bgExperience: "#00ADB5",
+            greenText: "#2ECC71",
+        };
+
+    return (
+        <ThemeContext.Provider value={{ isDarkMode, toggleTheme, theme }}>
+            {children}
+        </ThemeContext.Provider>
+    );
+};
+
+
+export const useTheme = () => useContext(ThemeContext);

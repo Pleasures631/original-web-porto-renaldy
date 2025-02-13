@@ -7,6 +7,11 @@
     margin: 0px auto;
   }
 
+  .header-action {
+    display: flex;
+    align-items: center;
+  }
+
   .header-text {    
     font-size: 1rem;        
     font-family: "cera-bold";
@@ -136,8 +141,7 @@
     }
     .header {
       display: flex;
-      align-items: center;
-      justify-content: center;
+      justify-content: space-between;
     }
     .header .menu {
       max-height: none;            
@@ -146,6 +150,7 @@
       display: none;
     }
   }
+
   @media (max-width: 960px) and (min-width: 768px) {
     .header {
       font-size: 12px;

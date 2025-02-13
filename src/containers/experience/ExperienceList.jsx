@@ -16,7 +16,7 @@ function ExperienceList(props) {
                         {/* <h2 className="experience-sub-text" style={{ color: theme.textCard }}>{experience.office}</h2> */}
                         <img
                             className="logo_img"
-                            src={require(`../../${experience.logo_path}`)}
+                            src={require(`../../../public/img/${experience.logo_path}`)}
                         // alt={certificate.alt_name}
                         />
                         <h3 className="experience-sub-text" style={{ color: theme.headline }}>{experience.jobTitle}</h3>

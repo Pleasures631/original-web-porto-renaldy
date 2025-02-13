@@ -2,27 +2,27 @@
 
 @font-face {
   font-family: 'cera-bold';
-  src: url('../src/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-bold.otf');
+  src: url('../public/fonts/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-bold.otf');
 }
 
 @font-face {
   font-family: 'cera-medium';
-  src: url('../src/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-medium.otf');
+  src: url('../public/fonts/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-medium.otf');
 }
 
 @font-face {
   font-family: 'cera-regular';
-  src: url('../src/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-regular.otf');
+  src: url('../public/fonts/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-regular.otf');
 }
 
 @font-face {
   font-family: 'cera-light';
-  src: url('../src/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-light.otf');
+  src: url('../public/fonts/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-light.otf');
 }
 
 @font-face {
   font-family: 'cera-thin';
-  src: url('../src/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-thin.otf');
+  src: url('../public/fonts/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-thin.otf');
 }
 
 /* Roboto */
@@ -44,13 +44,13 @@ code {
 
 .background-image-div {
   background-size: cover;
-  background-image: url('./blob-scene-haikei.svg');
+  background-image: url('../public/img/blob-scene-haikei.svg');
   height: 100vh;
 }
 
 @media (max-width: 768px) {
   .background-image-div {
-    background-image: url('./blob-scene-haikei-mobile.svg');    
+    background-image: url('../public/img/blob-scene-haikei-mobile.svg');    
   }
 }
 

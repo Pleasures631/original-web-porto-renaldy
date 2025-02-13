@@ -95,7 +95,7 @@
     border: 5px solid transparent;
     border-radius: 2rem;
     background: #000; 
-    background-image:url('../../selca1.jpg'); 
+    background-image:url('../../../public/img/selca1.jpg'); 
     background-size:cover;
   }
   
