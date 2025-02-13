@@ -17,7 +17,7 @@ const Skill = forwardRef(({ theme }, ref) => {
                     >
                         Skills
                     </h1>
-                    <hr
+                    {/* <hr
                         style={{
                             marginTop: "1rem",
                             marginBottom: "2rem",
@@ -26,10 +26,10 @@ const Skill = forwardRef(({ theme }, ref) => {
                             width: "12%",
                             margin: "0 auto",
                         }}
-                    ></hr>
-                    <div className="skill-main-div">
+                    ></hr> */}
+                    {/* <div className="skill-main-div"> */}
                         <SkillList theme={theme} />
-                    </div>
+                    {/* </div> */}
                 </Fade>
             </div>
         </div>

@@ -6,7 +6,7 @@ import ExperienceList from "./ExperienceList";
 // function Experience(props) {
 const Experience = forwardRef(({ theme }, ref) => {
     return (
-        <div ref={ref}>
+        <div className="container" ref={ref}>
             <Fade top duration={1000} distance="20px">
                 <div className="mb-5">
                     <h1
@@ -15,7 +15,7 @@ const Experience = forwardRef(({ theme }, ref) => {
                     >
                         Experience
                     </h1>
-                    <hr
+                    {/* <hr
                         style={{
                             marginTop: "1rem",
                             marginBottom: "2rem",
@@ -24,7 +24,7 @@ const Experience = forwardRef(({ theme }, ref) => {
                             width: "20%",
                             margin: "0 auto",
                         }}
-                    ></hr>
+                    ></hr> */}
                 </div>
                 <div className="experience-main-div">
                     <ExperienceList theme={theme} />

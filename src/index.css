@@ -1,31 +1,63 @@
 /* Cera Round PRO */
 
 @font-face {
-  font-family: 'cera-bold';
+  font-family: 'inter-bold';
   src: url('../public/fonts/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-bold.otf');
 }
 
 @font-face {
-  font-family: 'cera-medium';
+  font-family: 'inter-medium';
   src: url('../public/fonts/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-medium.otf');
 }
 
 @font-face {
-  font-family: 'cera-regular';
+  font-family: 'inter-regular';
   src: url('../public/fonts/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-regular.otf');
 }
 
 @font-face {
-  font-family: 'cera-light';
+  font-family: 'inter-light';
   src: url('../public/fonts/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-light.otf');
 }
 
 @font-face {
-  font-family: 'cera-thin';
+  font-family: 'inter-thin';
   src: url('../public/fonts/cera-round-pro-free-font/Demo_fonts/Fontspring-DEMO-ceraroundpro-thin.otf');
 }
 
 /* Roboto */
+
+/* Inter */
+@font-face {
+  font-family: 'inter-regular';
+  src: url('../public/fonts/Inter/static/Inter_18pt-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'inter-bold';
+  src: url('../public/fonts/Inter/static/Inter_18pt-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'inter-semibold';
+  src: url('../public/fonts/Inter/static/Inter_28pt-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'inter-medium';
+  src: url('../public/fonts/Inter/static/Inter_28pt-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'inter-light';
+  src: url('../public/fonts/Inter/static/Inter_28pt-Light.ttf');
+}
+
+@font-face {
+  font-family: 'inter-thin';
+  src: url('../public/fonts/Inter/static/Inter_28pt-Thin.ttf');
+}
+
 
 
 body {

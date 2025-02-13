@@ -10,22 +10,22 @@
 
 .experience-text {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     /* margin-top: 80px; */
     font-size: 70px;
     line-height: 1.1;
-    font-family: "cera-bold";
+    font-family: "inter-bold";
 }
 
 .experience-sub-text {
     font-size: 30px;    
-    font-family: "cera-regular";  
+    font-family: "inter-bold";  
     text-align: center;
 }
 
 .experience-sub-second-text {
     font-size: 20px;    
-    font-family: "cera-thin";  
+    font-family: "inter-light";  
     text-align: center;
 }
 
@@ -33,19 +33,35 @@
     font-size: 40px;
     line-height: 40px;
     margin-right: 40px;
-    font-family: "cera-light";
+    font-family: "inter-light";
 }
 
 .experience-card {
     flex: 1 0 calc(33.333% - 20px);
-    border: 3px solid transparent;
-    border-radius: 2rem;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
     /* border-color: blue; */
-    background: #fff;    
+    /* background: #fff;     */
     padding: 1.2rem;
     line-height: 1.1;   
     margin: 0px auto;
-    /* height: 40vh; */
+    height: 100%; /* Biar semua card punya tinggi yang sama */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.experience-card-content {
+    flex-grow: 1;
+    overflow: hidden;
+    position: relative;
+    max-height: 100px;
+}
+
+.read-more {
+    cursor: pointer;
+    color: blue;
+    font-weight: bold;
 }
 
 .experience-card-title {    
@@ -72,7 +88,7 @@
     }
 
     .experience-text-p {
-        font-size: 20px;
+        font-size: 18px;
     }   
     
     .experience-main {

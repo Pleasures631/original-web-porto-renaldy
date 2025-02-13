@@ -57,7 +57,7 @@
   .button-see-experience {
     border: 2px solid;
     border-radius: 0.5rem;    
-    font-family: "cera-bold";
+    font-family: "inter-bold";
     padding: 10px 10px;
     font-size: 1rem;
   }
@@ -69,21 +69,21 @@
     font-size: 2rem;
     line-height: 1.1;
     text-align: center;
-    font-family: "cera-bold";
+    font-family: "inter-bold";
   }
   
   .greeting-nickname {
     font-size: 1.7rem;
     line-height: 20px;
     text-align: center;
-    font-family: "cera-medium";
+    font-family: "inter-medium";
   }
   
   .greeting-text-p {    
     line-height: 20px;
     margin-right: 40px;
     text-align: center;
-    font-family: "cera-light";
+    font-family: "inter-light";
   }
   
   .greeting-image-div > * {

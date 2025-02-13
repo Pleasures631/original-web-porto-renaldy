@@ -4,63 +4,61 @@ import { skill } from "../../portofolio";
 
 function SkillList(props) {
     const theme = props.theme;
+    
+    const groupedSkills = [];
+    for (let i = 0; i < skill.data.length; i += 2) {
+        groupedSkills.push(skill.data.slice(i, i + 2));
+    }
+
     return (
-        skill.data.map((skill, i) => (
-            <Fade top duration={1000} distance="20px">
-                <div className="skill-main">
-                    <div
-                        style={{ borderColor: theme.greenText }}
-                        className="skill-card">
-                        <h1
-                            key={i}
-                            style={{ color: theme.headline }}
-                            className="skill-sub-text"
-                        >{skill.skillTitle}</h1>
-                        <div className="row">
-                            {skill.skillLanguage.map((skillLanguages, i) => (
-                                <div className="col-md-6" style={{ display: "flex", gap: "1rem", padding: "10px", alignItems: "baseline" }}>
-                                    <div>
-                                        <img width="20" height="20" src="https://img.icons8.com/color/48/verified-badge.png" alt="verified-badge" />
-                                    </div>
-                                    <div>
-                                        <h2 className="skill-sub-second-text" key={i} style={{ color: theme.headline }}>{skillLanguages.skillName}</h2>
-                                        {skillLanguages.levelSkill == 'Beginner' &&
-                                            <div className="progress" style={{width:"3rem"}}>
-                                                <div className="progress-bar bg-success" role="progressbar" style={{ width: "25%" }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+        <Fade top duration={1000} distance="20px">
+            {groupedSkills.map((group, index) => (
+                <div className="row" key={index}>
+                    {group.map((skill, i) => (
+                        <div className="col-md-6 p-3" key={i} style={{ display: "grid" }}>
+                            <div style={{ borderColor: theme.jacketColor }} className="skill-card">
+                                <h1 style={{ color: theme.headline }} className="skill-sub-text">
+                                    {skill.skillTitle}
+                                </h1>
+                                <div className="row">
+                                    {skill.skillLanguage.map((skillLanguages, j) => (
+                                        <div
+                                            className="col-md-6"
+                                            key={j}
+                                            style={{
+                                                display: "flex",
+                                                gap: "0.5rem",
+                                                padding: "5px",
+                                                alignItems: "baseline",
+                                            }}
+                                        >
+                                            <div>
+                                                <img
+                                                    width="20"
+                                                    height="20"
+                                                    src="https://img.icons8.com/color/48/verified-badge.png"
+                                                    alt="verified-badge"
+                                                />
                                             </div>
-                                        }
-                                        {skillLanguages.levelSkill == 'Intermediate' &&
-                                            <div className="progress" style={{width:"3rem"}}>
-                                                <div className="progress-bar bg-success" role="progressbar" style={{ width: "25%" }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                                <div className="progress-bar bg-success" role="progressbar" style={{ width: "25%" }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <div>
+                                                <h2
+                                                    className="skill-sub-second-text"
+                                                    style={{ color: theme.headline }}
+                                                >
+                                                    {skillLanguages.skillName}
+                                                </h2>
                                             </div>
-                                        }
-                                        {skillLanguages.levelSkill == 'Advanced' &&
-                                            <div className="progress" style={{width:"3rem"}}>
-                                                <div className="progress-bar bg-success" role="progressbar" style={{ width: "25%" }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                                <div className="progress-bar bg-success" role="progressbar" style={{ width: "25%" }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                                <div className="progress-bar bg-success" role="progressbar" style={{ width: "25%" }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        }
-                                        {skillLanguages.levelSkill == 'Expert' &&
-                                            <div className="progress" style={{width:"3rem"}}>
-                                                <div className="progress-bar bg-success" role="progressbar" style={{ width: "25%" }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                                <div className="progress-bar bg-success" role="progressbar" style={{ width: "25%" }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                                <div className="progress-bar bg-success" role="progressbar" style={{ width: "25%" }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                                <div className="progress-bar bg-success" role="progressbar" style={{ width: "25%" }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        }
-                                        <h4 className="skill-sub-third-text" key={i} style={{ color: theme.headline }}>{skillLanguages.levelSkill}</h4><br />
-                                    </div>
+                                        </div>
+                                    ))}
                                 </div>
-                            ))}
+                            </div>
                         </div>
-                    </div>
+                    ))}
                 </div>
-            </Fade>
-        ))
-        // <div></div>
+            ))}
+        </Fade>
     );
 }
+
 
 export default SkillList;
