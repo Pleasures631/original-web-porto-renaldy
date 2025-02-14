@@ -17,10 +17,10 @@ function HomeComponent() {
     return (
         <div style={{backgroundColor: theme.bgBody}}>
             <Header resultRef={resultRef} resultRef2={resultRef2} resultRef3={resultRef3} />
-            <div className="background-image-div">
+            {/* <div className="background-image-div"> */}
                 <Greeting theme={theme} />
                 <ArrowButton theme={theme} resultRef4={resultRef4} />
-            </div>
+            {/* </div> */}
             <Experience ref={resultRef2} theme={theme} />
             <Skills ref={resultRef3} theme={theme} />
             <Footer ref={resultRef4} theme={theme} />

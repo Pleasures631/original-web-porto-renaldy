@@ -10,7 +10,7 @@
 
 .skill-text {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     font-size: 70px;
     line-height: 1.1;
     font-family: "inter-bold";
@@ -52,7 +52,7 @@
 /* Media Query */
 @media (max-width: 1920px) {
     .skill-text {
-        font-size: 60px;
+        font-size: 35px;
     }
 
     .skill-main {
@@ -66,7 +66,7 @@
     }
 
     .skill-text {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .skill-card {
@@ -84,7 +84,7 @@
     }
 
     .skill-text {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .skill-card {

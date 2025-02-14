@@ -10,7 +10,7 @@
 
 .experience-text {
     display: flex;
-    justify-content: start;
+    justify-content: end;
     /* margin-top: 80px; */
     font-size: 70px;
     line-height: 1.1;
@@ -84,11 +84,11 @@
 /* Media Query */
 @media (max-width: 1920px) {
     .experience-text {
-        font-size: 60px;
+        font-size: 35px;
     }
 
     .experience-text-p {
-        font-size: 18px;
+        font-size: 15px;
     }   
     
     .experience-main {
@@ -98,11 +98,11 @@
 
 @media (max-width: 1380px) {
     .experience-text {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .experience-text-p {
-        font-size: 20px;
+        font-size: 14px;
     }   
     
     .experience-main {
@@ -116,7 +116,7 @@
     }
 
     .experience-text {
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .experience-main {

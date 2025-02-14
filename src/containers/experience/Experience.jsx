@@ -10,21 +10,22 @@ const Experience = forwardRef(({ theme }, ref) => {
             <Fade top duration={1000} distance="20px">
                 <div className="mb-5">
                     <h1
-                        style={{ color: theme.textExperience, paddingTop: "10%" }}
+                        style={{ color: theme.titleP, paddingTop: "10%" }}
                         className="experience-text"
                     >
                         Experience
                     </h1>
-                    {/* <hr
-                        style={{
-                            marginTop: "1rem",
-                            marginBottom: "2rem",
-                            border: "0",
-                            borderTop: `3px solid ${theme.textExperience}`,
-                            width: "20%",
-                            margin: "0 auto",
-                        }}
-                    ></hr> */}
+                    <hr
+                       style={{
+                        // marginTop: "1rem",
+                        // marginBottom: "2rem",
+                        // border: "0",
+                        borderTop: `1px solid ${theme.titleP}`,
+                        width: "15%",
+                        float:"right"
+                        // margin: "0 auto",
+                    }}
+                    ></hr>
                 </div>
                 <div className="experience-main-div">
                     <ExperienceList theme={theme} />

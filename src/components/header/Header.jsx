@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink } from "react-router-dom";
@@ -7,21 +7,31 @@ import { MdOutlineLightMode } from "react-icons/md";
 import { useTheme } from "../../theme";
 
 const Header = ({ resultRef, resultRef2, resultRef3 }) => {
-
+    const [isScrolled, setIsScrolled] = useState(false);
     const { theme, isDarkMode, toggleTheme } = useTheme();
 
     const handleClick = (ref) => {
-        ref.current.scrollIntoView({ behavior: 'smooth' });
+        ref.current.scrollIntoView({ behavior: "smooth" });
     };
 
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 10);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
     return (
-        <div className="container" style={{ position: "fixed", top: "0", right: "0", left: "0", zIndex: "1000" }}>
-            <header className="header" style={{ position: "relative", zIndex: "1" }}>
+        <div className="header-container">
+            <header className={`header ${isScrolled ? "blur-header" : "bg-transparent"}`} style={{ background: theme.headerBackground }}>
                 <Fade top duration={1000} distance="20px">
                     <input className="menu-btn" type="checkbox" id="menu-btn" />
                     <label className="menu-icon" htmlFor="menu-btn">
                         <span className="navicon"></span>
                     </label>
+                    <div className="container" style={{display:"flex", justifyContent:"space-between"}}>
                     <nav>
                         <ul className="menu">
                             <li>
@@ -61,15 +71,22 @@ const Header = ({ resultRef, resultRef2, resultRef3 }) => {
                             onClick={() => toggleTheme()}
                             style={{ color: theme.headline }}
                         >
-                            {isDarkMode ? <MdOutlineLightMode style={{ fontSize: "1.5rem", cursor: "pointer" }} />
-                                : <MdOutlineDarkMode style={{ fontSize: "1.5rem", cursor: "pointer" }} />}
+                            {isDarkMode ? (
+                                <MdOutlineLightMode
+                                    style={{ fontSize: "1.5rem", cursor: "pointer" }}
+                                />
+                            ) : (
+                                <MdOutlineDarkMode
+                                    style={{ fontSize: "1.5rem", cursor: "pointer" }}
+                                />
+                            )}
                         </NavLink>
                     </div>
-
+                    </div>
                 </Fade>
             </header>
         </div>
     );
-}
+};
 
 export default Header;

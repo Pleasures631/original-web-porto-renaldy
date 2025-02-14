@@ -98,6 +98,14 @@
     background-image:url('../../../public/img/selca1.jpg'); 
     background-size:cover;
   }
+
+  .logo_img {
+      width: 100%; /* Mengisi penuh parent */
+      max-width: 500px; /* Batas maksimal ukuran */
+      height: auto; /* Menjaga proporsi gambar */
+      display: block; /* Menghindari extra space bawah */
+  
+  }
   
   /* Media Query */
 

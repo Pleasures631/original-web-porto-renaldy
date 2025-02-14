@@ -13,22 +13,22 @@ import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
       <Fade>
         <div className="row" style={{ backgroundColor: theme.bgExperience }} >
           <div>
-            <h3 style={{ color: theme.textExperience, textAlign: "center", marginTop:"2%"}}>Renaldy Cahya</h3>
+            <h3 style={{ color: theme.titleP, textAlign: "center", marginTop:"2%"}}>Renaldy Cahya</h3>
             <div id="socmed" style={{ display:"flex", justifyContent: "center", gap:"0.5rem", padding:"1rem" }}>
-              <a href="https://www.instagram.com/renaidyy?igsh=MTZidXczenRna2hvbQ%3D%3D&utm_source=qr"><FaInstagram style={{ color: theme.textExperience, fontSize:'30px' }} /></a>
-              <a href="https://www.linkedin.com/in/renaldy-cahya-2455751a1"><FaLinkedin style={{ color: theme.textExperience, fontSize:'30px' }} /></a>
-              <a href="https://api.whatsapp.com/send?phone=6282211577756"><FaWhatsapp style={{ color: theme.textExperience, fontSize:'30px' }} /></a>
+              <a href="https://www.instagram.com/renaidyy?igsh=MTZidXczenRna2hvbQ%3D%3D&utm_source=qr"><FaInstagram style={{ color: theme.titleP, fontSize:'30px' }} /></a>
+              <a href="https://www.linkedin.com/in/renaldy-cahya-2455751a1"><FaLinkedin style={{ color: theme.titleP, fontSize:'30px' }} /></a>
+              <a href="https://api.whatsapp.com/send?phone=6282211577756"><FaWhatsapp style={{ color: theme.titleP, fontSize:'30px' }} /></a>
             </div>
           </div>
           {/* <div className="col-md-4">
-            <p style={{ color: theme.textExperience }}>Support Ukraine 🇺🇦</p>
-            <p style={{ color: theme.textExperience }}>Support Palestine 🇵🇸</p>
+            <p style={{ color: theme.titleP }}>Support Ukraine 🇺🇦</p>
+            <p style={{ color: theme.titleP }}>Support Palestine 🇵🇸</p>
           </div> */}
           <div >
 
           </div>
           <p style={{
-            color: theme.textExperience,
+            color: theme.titleP,
             textAlign: "center",
             marginBottom:"2%"
           }}>© Renaldy Cahya. All right reserved.</p>

@@ -5,6 +5,27 @@
     max-width: 100%;
     padding: 20px 10px;
     margin: 0px auto;
+    transition: all 0.3s ease;
+  }
+
+  .blur-header {
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .bg-transparent {
+    background: transparent;
+    transition: all 0.3s ease;
+  }
+
+  .header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
   }
 
   .header-action {

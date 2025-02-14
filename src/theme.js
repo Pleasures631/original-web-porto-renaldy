@@ -30,9 +30,9 @@ export const ThemeProvider = ({ children }) => {
             textCard: "#FFD700",
             footer: "#181818",
             bgBody: "#121212",
-            textExperience: "#63E6BE",
+            titleP: "#5c4f6a",
             bgExperience: "#1F1F1F",
-            greenText: "#20C20E",
+            headerBackground: "rgba(0, 0, 0, 0.3)"
         }
         : {
             headline: "#222831",
@@ -50,9 +50,9 @@ export const ThemeProvider = ({ children }) => {
             textCard: "#FF8C00",
             footer: "#f1f1f1",
             bgBody: "#ffffff",
-            textExperience: "#FFD700",
+            titleP: "#a890c5",
             bgExperience: "#00ADB5",
-            greenText: "#2ECC71",
+            headerBackground:"rgba(255, 255, 255, 0.3)"
         };
 
     return (
