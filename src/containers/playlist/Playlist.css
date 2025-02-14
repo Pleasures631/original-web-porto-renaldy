@@ -1,0 +1,8 @@
+.playlist-text {
+    display: flex;
+    justify-content: end;
+    /* margin-top: 80px; */
+    font-size: 70px;
+    line-height: 1.1;
+    font-family: "inter-bold";
+}

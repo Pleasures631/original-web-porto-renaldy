@@ -23,6 +23,13 @@
   animation: bounce 2s infinite;
 }
 
+.center-container {
+  height: 100vh; /* Agar memenuhi tinggi layar */
+  display: flex;
+  align-items: center; /* Posisi vertikal di tengah */
+  justify-content: center; /* Posisi horizontal di tengah */
+}
+
 .main {
     width: 90%;
     padding: 20px 10px;
@@ -100,13 +107,11 @@
   }
 
   .logo_img {
-      width: 100%; /* Mengisi penuh parent */
-      max-width: 500px; /* Batas maksimal ukuran */
-      height: auto; /* Menjaga proporsi gambar */
-      display: block; /* Menghindari extra space bawah */
-  
-  }
-  
+    width: 120px;
+    height: auto;
+    max-width: 50%; /* Biar tidak terlalu besar di layar kecil */
+}
+
   /* Media Query */
 
   @media (max-width: 3841px) {

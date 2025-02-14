@@ -5,6 +5,8 @@ import { NavLink } from "react-router-dom";
 import { MdOutlineDarkMode } from "react-icons/md";
 import { MdOutlineLightMode } from "react-icons/md";
 import { useTheme } from "../../theme";
+import mainLogoBlack from "../../main_logo_black.png";
+import mainLogoWhite from "../../main_logo_white.png";
 
 const Header = ({ resultRef, resultRef2, resultRef3 }) => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -62,6 +64,16 @@ const Header = ({ resultRef, resultRef2, resultRef3 }) => {
                                     className="header-text"
                                 >
                                     Skills
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                    // onClick={() => handleClick(resultRef)}
+                                    activeStyle={{ fontWeight: "bold" }}
+                                    style={{ color: theme.headline }}
+                                    className="header-text"
+                                >
+                                    Technologies
                                 </NavLink>
                             </li>
                         </ul>

@@ -4,6 +4,7 @@ import Footer from "../../components/footer/Footer";
 import Greeting from "../../containers/greeting/Greeting";
 import Experience from "../../containers/experience/Experience";
 import Skills from "../../containers/skills/Skill";
+import Playlist from "../../containers/playlist/Playlist";
 import ArrowButton from "../../components/arrow/ArrowButton";
 import { useTheme } from "../../theme";
 
@@ -23,6 +24,7 @@ function HomeComponent() {
             {/* </div> */}
             <Experience ref={resultRef2} theme={theme} />
             <Skills ref={resultRef3} theme={theme} />
+            <Playlist theme={theme} />
             <Footer ref={resultRef4} theme={theme} />
         </div>
     );
