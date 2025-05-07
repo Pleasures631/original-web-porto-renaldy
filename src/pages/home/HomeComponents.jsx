@@ -6,6 +6,7 @@ import Experience from "../../containers/experience/Experience";
 import Skills from "../../containers/skills/Skill";
 import Playlist from "../../containers/playlist/Playlist";
 import ArrowButton from "../../components/arrow/ArrowButton";
+import LeftPanel from "../../components/panel/LeftPanel";
 import { useTheme } from "../../theme";
 
 function HomeComponent() {
@@ -16,17 +17,22 @@ function HomeComponent() {
     const resultRef4 = useRef(null);
 
     return (
-        <div style={{backgroundColor: theme.bgBody}}>
-            <Header resultRef={resultRef} resultRef2={resultRef2} resultRef3={resultRef3} />
-            {/* <div className="background-image-div"> */}
-                <Greeting theme={theme} />
-                <ArrowButton theme={theme} resultRef4={resultRef4} />
-            {/* </div> */}
-            <Experience ref={resultRef2} theme={theme} />
-            <Skills ref={resultRef3} theme={theme} />
-            <Playlist theme={theme} />
-            <Footer ref={resultRef4} theme={theme} />
-        </div>
+      <div style={{ backgroundColor: theme.bgBody }}>
+        <Header
+          resultRef={resultRef}
+          resultRef2={resultRef2}
+          resultRef3={resultRef3}
+        />
+        <LeftPanel theme={theme} />
+        {/* <div className="background-image-div"> */}
+        <Greeting theme={theme} />
+        <ArrowButton theme={theme} resultRef4={resultRef4} />
+        {/* </div> */}
+        <Experience ref={resultRef2} theme={theme} />
+        <Skills ref={resultRef3} theme={theme} />
+        <Playlist theme={theme} />
+        <Footer ref={resultRef4} theme={theme} />
+      </div>
     );
 }
 
