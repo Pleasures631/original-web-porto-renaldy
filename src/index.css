@@ -58,6 +58,11 @@
   src: url('../public/fonts/Inter/static/Inter_28pt-Thin.ttf');
 }
 
+/* Berthold city BOLD */
+@font-face {
+  font-family: 'berthold-bold';
+  src: url('../public/fonts/Berthold City Bold/Berthold City Bold.otf');
+}
 
 
 body {

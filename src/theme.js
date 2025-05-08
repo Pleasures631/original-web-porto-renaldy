@@ -32,7 +32,9 @@ export const ThemeProvider = ({ children }) => {
             bgBody: "#121212",
             titleP: "#5c4f6a",
             bgExperience: "#1F1F1F",
-            headerBackground: "rgba(0, 0, 0, 0.3)"
+            headerBackground: "rgba(0, 0, 0, 0.3)",
+            bgCard: "linear-gradient(145deg, #1a1a1a, #222)"
+    
         }
         : {
             headline: "#222831",
@@ -52,7 +54,8 @@ export const ThemeProvider = ({ children }) => {
             bgBody: "#ffffff",
             titleP: "#a890c5",
             bgExperience: "#00ADB5",
-            headerBackground:"rgba(255, 255, 255, 0.3)"
+            headerBackground:"rgba(255, 255, 255, 0.3)",
+            bgCard: "linear-gradient(145deg, #ffffff, #f3f3f3)"
         };
 
     return (

@@ -35,7 +35,7 @@ function ExperienceCard({ exp, theme }) {
     return (
         <div
             className="experience-card"
-            style={{ borderColor: theme.jacketColor }}
+            style={{ borderColor: theme.jacketColor, background: theme.bgCard }}
         >
             {/* <img
                 className="logo_img"

@@ -22,7 +22,7 @@ function LeftPanel({ theme }) {
             <div id="line" style={{ marginBottom: "40px", transform: "rotate(180deg)", letterSpacing: "3px", color: theme.headline }} className="header-text">
                 PORTOFOLIO
             </div>
-            <div style={{ height: '100px', borderLeft: '1px solid black', transform: "rotate(180deg)", color: theme.headline }}></div>
+            <div style={{ height: '100px', borderLeft: '1px solid', transform: "rotate(180deg)", color: theme.headline }}></div>
             <div id="copyright" style={{ position: "absolute", top: "auto", bottom: "3vh", transform: "rotate(180deg)", color: theme.headline }} className="header-text">
                 © 2025 Renaldy Cahya
             </div>

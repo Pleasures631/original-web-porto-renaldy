@@ -16,10 +16,10 @@ function SkillList(props) {
                 <div className="row" key={index}>
                     {group.map((skill, i) => (
                         <div className="col-md-6 p-3" key={i} style={{ display: "grid" }}>
-                            <div style={{ borderColor: theme.jacketColor }} className="skill-card">
-                                <h1 style={{ color: theme.headline }} className="skill-sub-text">
+                            <div style={{ borderColor: theme.jacketColor, background: theme.bgCard }} className="skill-card">
+                                <h3 style={{ color: theme.headline }} className="skill-sub-text">
                                     {skill.skillTitle}
-                                </h1>
+                                </h3>
                                 <div className="row">
                                     {skill.skillLanguage.map((skillLanguages, j) => (
                                         <div
