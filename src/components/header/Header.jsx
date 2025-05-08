@@ -36,6 +36,16 @@ const Header = ({ resultRef, resultRef2, resultRef3 }) => {
                     <div className="container" style={{display:"flex", justifyContent:"space-between"}}>
                     <nav>
                         <ul className="menu">
+                        <li>
+                                <NavLink
+                                    // onClick={() => handleClick(resultRef)}
+                                    activeStyle={{ fontWeight: "bold" }}
+                                    style={{ color: theme.headline, fontFamily:"berthold-bold" }}
+                                    className="header-text"
+                                >
+                                    SSSelca
+                                </NavLink>
+                            </li>
                             <li>
                                 <NavLink
                                     onClick={() => handleClick(resultRef)}
