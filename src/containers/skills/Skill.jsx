@@ -12,7 +12,7 @@ const Skill = forwardRef(({ theme }, ref) => {
             <div className="container">
                 <Fade top duration={1000} distance="20px">
                     <h1
-                        style={{ color: theme.headline, paddingTop: "5%" }}
+                        style={{ color: theme.headline, paddingTop: "10%" }}
                         className="skill-text"
                     >
                         Skills
